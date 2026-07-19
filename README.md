@@ -1,4 +1,4 @@
-# Sooshial TODO
+# TODO Demo
 
 A very simple, minimal TODO list app built with Next.js (App Router) and Tailwind CSS. Todos are stored in the browser's `localStorage`, so your list survives a refresh with no backend required.
 
