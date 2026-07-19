@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sooshial TODO
 
-## Getting Started
+A very simple, minimal TODO list app built with Next.js (App Router) and Tailwind CSS. Todos are stored in the browser's `localStorage`, so your list survives a refresh with no backend required.
 
-First, run the development server:
+The visual theme (the Neucha handwritten font, the dark-on-white palette, and the playful irregular border radii on buttons, cards, and inputs) is borrowed from my [Sooshial-Medea](https://github.com/KareemGhorab/Sooshial-Medea) project.
+
+## Features
+
+- Add a todo (submit with the button or the Enter key)
+- Toggle a todo done/undone
+- Delete a todo
+- Automatic persistence in `localStorage`
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `npm run dev` — start the development server
+- `npm run build` — create a production build
+- `npm start` — run the production build
+- `npm run lint` — lint the project
